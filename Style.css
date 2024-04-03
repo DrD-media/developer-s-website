@@ -159,11 +159,58 @@ body {
     padding-bottom: 100px;
     background-color: #34547A;
 }
-
-
-
 /* .main3*/
+.main3-container {
+    display: flex;
+    width: 1920px;
+    padding-top: 102px;
+    padding-left: 386px;
+    padding-right: 386px;
+    padding-bottom: 101px;
+    background-color: #FFFFFF;
+}
+.main3-block1 {
+    padding-right: 150px;
+}
+.main3-TEXT {
+    font-size: 32px;
+    line-height: auto;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+.main3-text1 {
+    font-size: 16px;
+    line-height: 164%;
+    font-weight: 400;
+    color: #727272;
+}
+.main3-text2 {
+    font-size: 16px;
+    line-height: 164%;
+    font-weight: 400;
+    color: #727272;
+}
+.main3-text3 {
+    font-size: 16px;
+    line-height: 164%;
+    font-weight: 400;
+    color: #727272;
+}
 /* .main4*/
+.main4-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 1920px;
+    background-color: #EEEFF1;
+}
+.main4-block1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* .main5*/
 .main5-container {
     display: flex;
