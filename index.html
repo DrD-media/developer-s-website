@@ -183,19 +183,20 @@
     <main7>
         <div class="main7-container" id="написать мне">
             <div class="main7-block1">
-                <h2>Хотите веб-сайт?</h2>
-                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                <h2 class="main7-title">Хотите веб-сайт?</h2>
+                <p class="main7-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
             </div>
-            <from method="post" action="url">
-                <input class="form-name" type="text" name="var2" placeholder="Ваше имя">
-            </from>
-            <from method="post" action="url">
-                <input class="form-email" type="text" name="var2" placeholder="Ваш e-mail">
-            </from>
-            <from method="post" action="url">
+            <div class="name-email">
+                <from class="form-name-container" method="post" action="url">
+                    <input class="form-name" type="text" name="var2" placeholder="Ваше имя">
+                </from>
+                <from class="form-email-container" method="post" action="url">
+                    <input class="form-email" type="text" name="var2" placeholder="Ваш e-mail">
+                </from>
+            </div>
+            <from class="form-messag-container" method="post" action="url">
                 <input class="form-messag" type="text" name="var2" placeholder="Сообщение">
-            </from>
-            
+            </from> 
             <a href="/" class="form-link">ОТПРАВИТЬ</a>
         </div>
     </main7>
