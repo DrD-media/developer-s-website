@@ -1,22 +1,18 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
-}
-  
+} 
 *, *:before, *:after {
 box-sizing: inherit;
 }
-  
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 margin: 0;
 padding: 0;
 font-weight: normal;
 }
-  
 ol, ul {
  list-style: none;
-}
-  
+} 
   /*img {
     max-width: 100%;
     height: auto;
@@ -35,7 +31,6 @@ body {
     padding-bottom: 178px;
     background-color: #EEEFF1;
 }
-
 .header-logo {
     font-family: "Revalia", sans-serif;
     margin-bottom: 161px;
@@ -44,7 +39,6 @@ body {
     font-weight: 400;
     color: #34547A;
 }
-
 .header-navigation {
     flex-direction:row;
     text-decoration: none;
@@ -53,7 +47,7 @@ body {
     color: #000000;
     text-decoration: none;
     font-size: 16px;
-    line-height: 164%;
+    line-height: 164.1%;
 }
 .header-navigation1:hover {
     color: #34547A;
@@ -62,7 +56,7 @@ body {
     color: #000000;
     text-decoration: none;
     font-size: 16px;
-    line-height: 164%;
+    line-height: 164.1%;
 }
 .header-navigation2:hover {
     color: #34547A;
@@ -71,7 +65,7 @@ body {
     color: #000000;
     text-decoration: none;
     font-size: 16px;
-    line-height: 164%;
+    line-height: 164.1%;
 }
 .header-navigation3:hover {
     color: #34547A;
@@ -80,7 +74,7 @@ body {
     color: #000000;
     text-decoration: none;
     font-size: 16px;
-    line-height: 164%;
+    line-height: 164.1%;
 }
 .header-navigation4:hover {
     color: #34547A;
@@ -89,22 +83,23 @@ body {
     color: #000000;
     text-decoration: none;
     font-size: 16px;
-    line-height: 164%;
+    line-height: 164.1%;
 }
 .header-navigation5:hover {
     color: #34547A;
 }
 .header-title {
     font-size: 48px;
-    line-height: 164%;
+    line-height: 164.1%;
     font-weight: 500;
     margin-bottom: 60px;
 }
 .header-text {
     font-size: 16px;
-    line-height: 164%;
+    line-height: 164.1%;
     font-weight: 400;
     margin-bottom: 60px;
+    color: #727272;
 }
 .messag-link {
     display: block;
@@ -113,7 +108,10 @@ body {
     background-color: #34547A;
     color: #FFFFFF;
     text-decoration: none;
+    font-family: "Roboto", sans-serif;   /* вопрос???*/
     font-size: 16px;
+    line-height: 164.1%;
+    font-weight: 400;
     line-height: 65px;  /* 164% */
     text-align: center;
 }
@@ -145,8 +143,9 @@ body {
 .me2 {
     text-align: center;
     font-size: 16px;
-    line-height: 164%;
+    line-height: 164.1%;
     font-weight: 400;
+    color: #727272;
 }
 /* .main2*/
 .main2-img-wraper {
@@ -180,19 +179,19 @@ body {
 }
 .main3-text1 {
     font-size: 16px;
-    line-height: 164%;
+    line-height: 164.1%;
     font-weight: 400;
     color: #727272;
 }
 .main3-text2 {
     font-size: 16px;
-    line-height: 164%;
+    line-height: 164.1%;
     font-weight: 400;
     color: #727272;
 }
 .main3-text3 {
     font-size: 16px;
-    line-height: 164%;
+    line-height: 164.1%;
     font-weight: 400;
     color: #727272;
 }
@@ -202,15 +201,35 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: 1920px;
     background-color: #EEEFF1;
 }
 .main4-block1 {
     display: flex;
     flex-direction: column;
+    padding-bottom: 57px;
+    padding-left: 690px;
+    padding-right: 690px;
 }
-
-
+.main4-title{
+    text-align: center;
+    font-size: 32px;
+    line-height: auto;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.main4-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 164.1%;
+    font-weight: 400;
+    color: #727272;
+}
+.main4-block2 {
+    min-width: none;
+}
 /* .main5*/
 .main5-container {
     display: flex;
@@ -218,10 +237,8 @@ body {
     width: 1920px;
     min-height: 960px;
     /*height: auto;*/
-
     /*height: 960px;*/ 
     background-color: rgb(52, 84, 122, 0.8);
-
     /*background-color: #34537a;*/
 }
 .main5-block1 {
@@ -231,8 +248,7 @@ body {
     /*box-shadow: -10 -10 50px 10px rgba(255, 255, 0, 0.9);*/
     mix-blend-mode: multiply;
     background-image: url(images/eye.png);
-    z-index: 2;
-
+    z-index: 3;
 }
 .main5-block2:hover {
     /*box-shadow: -10 -10 50px 10px rgba(255, 255, 0, 0.9);*/
@@ -299,7 +315,7 @@ body {
     text-align: center;
     /*text-indent: 7%;  вопрос???*/
     font-size: 16px;
-    line-height: 164%;
+    line-height: 164.1%;
     font-weight: 400;
     color: #727272;
 }
@@ -356,25 +372,30 @@ body {
 .footer-container {
     display: flex;
     justify-content: space-between;
-    
     width: 1920px;
-    padding-top: 100px;
+    padding-top: 53px;
     padding-left: 406px;
     padding-right: 406px;
-    padding-bottom: 100px;
+    padding-bottom: 53px;
     background-color: #34547A;;
+}
+.footer-container1 {
+    min-width: 193px;
 }
 .footer-name {
     color: #FFFFFF;
     font-size: 21px;
-    line-height: 24.61px;
+    font-weight: 500;
+    line-height: auto; /* 24.61px*/
     margin-bottom: 20px;
-    
+    max-height: 19px
 }
 .footer-year {
     color: #FFFFFF;
     font-size: 13px;
-    line-height: 21.33px;
+    font-weight: 400;
+    line-height: 164.1%; /*21.33px*/
+    max-height: 12px;
 }
 .footer-VK {
     display: flex;
