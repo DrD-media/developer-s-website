@@ -274,7 +274,51 @@ body {
     background-color: #FFFFFF;
 }
 /* .main7*/
-
+.main7-container {
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: row;*/
+    justify-content: center;
+    padding-left: 690px;
+    padding-right: 690px;
+    width: 1920px;
+    background-color: #EEEFF1;
+}
+.main7-block1 {
+    padding-top: auto; /* 75px*/
+}
+.form-name {
+    width: 255px;
+    height: 50px;
+}
+.form-email {
+    width: 255px;
+    height: 50px;
+}
+.form-messag {
+    width: 540px;
+    height: 175px;
+}
+.form-link {
+    display: block;
+    width: 190px;
+    height: 55px;
+    background-color: #34547A;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 55px;  /* 164% */
+    text-align: center;
+}
+.form-link:hover {
+    color: rgba(109, 210, 244);
+    padding: 1px;
+    width: 200px;
+    height: 65px;
+    margin-bottom: -10px;
+    line-height: 65px;
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.192);
+}
 /* .footer*/
 .footer-container {
     display: flex;
