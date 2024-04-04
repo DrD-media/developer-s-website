@@ -277,27 +277,60 @@ body {
 .main7-container {
     display: flex;
     flex-wrap: wrap;
-    /*flex-direction: row;*/
     justify-content: center;
     padding-left: 690px;
     padding-right: 690px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: 1920px;
     background-color: #EEEFF1;
 }
 .main7-block1 {
-    padding-top: auto; /* 75px*/
+    padding-bottom: 65px;
+}
+.main7-title {
+    text-align: center;
+    font-size: 32px;
+    line-height: auto;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.main7-text {
+    text-align: center;
+    /*text-indent: 7%;  вопрос???*/
+    font-size: 16px;
+    line-height: 164%;
+    font-weight: 400;
+    color: #727272;
+}
+.name-email {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
 }
 .form-name {
     width: 255px;
     height: 50px;
+    border: 0;
+    text-indent: 20px; /* вопрос???*/
+}
+.form-name-container{
+    padding-right: 30px; 
 }
 .form-email {
     width: 255px;
     height: 50px;
+    border: 0;
+    text-indent: 20px; /* вопрос???*/ 
 }
 .form-messag {
     width: 540px;
     height: 175px;
+    border: 0;
+    text-indent: 20px; /* вопрос???*/
+}
+.form-messag-container{
+    padding-bottom: 50px;   
 }
 .form-link {
     display: block;
