@@ -24,12 +24,19 @@ body {
 /* .header*/
 .header-container {
     display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: row;*/
     width: 1920px;
     padding-top: 57px;
     padding-left: 402px;
     padding-right: 402px;
     padding-bottom: 178px;
     background-color: #EEEFF1;
+}
+.header-container-1 {
+    min-width: 1105px; /*671px*/
+  
+    flex-wrap: nowrap;
 }
 .header-logo {
     font-family: "Revalia", sans-serif;
@@ -40,12 +47,18 @@ body {
     color: #34547A;
 }
 .header-navigation {
+    min-height: 16px;
+    min-width: 611px;
+    margin-left: 494px;
+    margin-top: -196px;
+
     flex-direction:row;
     text-decoration: none;
 }
 .header-navigation1 {
     color: #000000;
     text-decoration: none;
+    padding-right: 42px;
     font-size: 16px;
     line-height: 164.1%;
 }
@@ -55,6 +68,7 @@ body {
 .header-navigation2 {
     color: #000000;
     text-decoration: none;
+    padding-right: 42px;
     font-size: 16px;
     line-height: 164.1%;
 }
@@ -64,6 +78,7 @@ body {
 .header-navigation3 {
     color: #000000;
     text-decoration: none;
+    padding-right: 42px;
     font-size: 16px;
     line-height: 164.1%;
 }
@@ -73,6 +88,7 @@ body {
 .header-navigation4 {
     color: #000000;
     text-decoration: none;
+    padding-right: 42px;
     font-size: 16px;
     line-height: 164.1%;
 }
@@ -87,6 +103,16 @@ body {
 }
 .header-navigation5:hover {
     color: #34547A;
+}
+.header-container-2 {
+    margin-left: 85px;
+    margin-top: 100px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.header-block {
+    margin-top: -281px; /*-238*/
+    margin-left: 488px;  /* 488*/
 }
 .header-title {
     font-size: 48px;
