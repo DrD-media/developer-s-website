@@ -18,15 +18,18 @@ ol, ul {
     height: auto;
   }*/
 body {
+    position: absolute;
     font-family: "Revalia", sans-serif;
     font-family: "Roboto", sans-serif;
+    width: 100%;
+    max-width: 1920px;
 }
 /* .header*/
 .header-container {
     display: flex;
     flex-wrap: wrap;
     /*flex-direction: row;*/
-    width: 1920px;
+    /*width: 1920px;*/
     padding-top: 57px;
     padding-left: 402px;
     padding-right: 402px;
@@ -152,7 +155,7 @@ body {
 }
 /* .main*/
 .me {
-    width: 1920px;
+   /* width: 1920px;*/
     padding-top: 112px;
     padding-left: 715px;
     padding-right: 715px;
@@ -177,18 +180,20 @@ body {
 .main2-img-wraper {
     display: flex;
     justify-content: space-between;
-    width: 1920px;
+    flex-wrap: wrap;
+    /*width: 1920px;*/
     padding-top: 100px;
     padding-left: 405px;
     padding-right: 405px;
     padding-bottom: 100px;
     background-color: #34547A;
+    gap: 49px;
 }
 /* .main3*/
 .main3-container {
     display: flex;
     align-items: center;
-    width: 1920px;
+   /* width: 1920px;*/
     padding-top: 102px;
     padding-left: 386px;
     padding-right: 386px;
@@ -281,7 +286,7 @@ body {
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 1920px;
+  /*  width: 1920px;*/
     background-color: #EEEFF1;
 }
 .main4-block1 {
@@ -305,35 +310,106 @@ body {
     font-weight: 400;
     color: #727272;
 }
-.main4-block2 {
+.VideoC{
     min-width: none;
+    background: url('images/stabVideo.png') no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1110px;
+    height: 600px;
+}
+
+.VideoC::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: url('images/eye.png') no-repeat;
+
 }
 /* main-kostile-1 */
 .main-kostile-1{
     background-color: #FFFFFF;
-    width: 1920px;
+   /* width: 1920px;*/
     min-height: 28px;
 }
 /* .main5*/
 .main5-container {
     display: flex;
     flex-wrap: wrap;
-    width: 1920px;
+   /* width: 1920px;*/
     min-height: 960px;
     /*height: auto;*/
     /*height: 960px;*/ 
-    background-color: rgb(52, 84, 122, 0.8);
+ /*   background-color: rgb(52, 84, 122, 0.8);*/
     /*background-color: #34537a;*/
 }
-.main5-block1 {
-    z-index: 1;
+.gradient {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.main5-block1:hover {
+.gradient:hover::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: transparent;
+    background-image: linear-gradient(#34547A, #34547A);
+    opacity: 0.8;
+}
+
+.gradient:hover::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: url('images/eye.png') no-repeat;
+   z-index: 100;
+}
+
+.main5-block2 {
+    max-width: 100%;
+    max-height: 100%;
+}
+.main5-block3 {
+    max-width: 100%;
+    max-height: 100%;
+}
+.main5-block4 {
+    max-width: 100%;
+    max-height: 100%;
+}
+.main5-block5 {
+    max-width: 100%;
+    max-height: 100%;
+}
+.main5-block6 {
+    max-width: 100%;
+    max-height: 100%;
+}
+.main5-block7 {
+    max-width: 100%;
+    max-height: 100%;
+}
+.main5-block8 {
+    max-width: 100%;
+    max-height: 100%;
+}
+/*.main5-block1:hover {
     /*box-shadow: -10 -10 50px 10px rgba(255, 255, 0, 0.9);*/
-    mix-blend-mode: multiply;
-    background-image: url(images/eye.png);
-    z-index: 3;
-}
+    /*mix-blend-mode: multiply;
+    background-image: url(images/eye.png);*/
+   
+
 .main5-block2:hover {
     /*box-shadow: -10 -10 50px 10px rgba(255, 255, 0, 0.9);*/
     mix-blend-mode: multiply;
@@ -366,7 +442,8 @@ body {
 .main6-img-wraper {
     display: flex;
     justify-content: space-between;
-    width: 1920px;
+    flex-wrap: wrap;
+    /*width: 100%;*/
     padding-top: 72px;
     padding-left: 405px;
     padding-right: 405px;
@@ -382,7 +459,7 @@ body {
     padding-right: 690px;
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 1920px;
+   /* width: 1920px;*/
     background-color: #EEEFF1;
 }
 .main7-block1 {
@@ -425,10 +502,18 @@ body {
 }
 .form-messag {
     width: 540px;
-    height: 175px;
+    /*height: 175px;*/
+    padding-inline: 0;
+    padding-top: 17px;
+    padding-bottom: 143px;
     border: 0;
     text-indent: 20px; /* вопрос???*/
+    padding-left: 10px;
+    padding-right: 10px;
 }
+textarea { 
+    resize: none;
+  }
 .form-messag-container{
     padding-bottom: 50px;   
 }
@@ -456,7 +541,7 @@ body {
 .footer-container {
     display: flex;
     justify-content: space-between;
-    width: 1920px;
+  /*  width: 1920px;*/
     padding-top: 50px;
     padding-left: 406px;
     padding-right: 406px;
