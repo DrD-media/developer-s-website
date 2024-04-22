@@ -339,14 +339,10 @@ body {
 .main5-container {
     display: flex;
     flex-wrap: wrap;
-   /* width: 1920px;*/
-    min-height: 960px;
-    /*height: auto;*/
-    /*height: 960px;*/ 
- /*   background-color: rgb(52, 84, 122, 0.8);*/
-    /*background-color: #34537a;*/
+   /* min-height: 960px;*/
 }
-.gradient {
+
+.main5-block1 {
     max-width: 100%;
     max-height: 100%;
     display: inline-block;
@@ -355,7 +351,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.gradient:hover::after{
+.main5-block1:hover::after{
     content: '';
     display: block;
     width: 100%;
@@ -365,8 +361,7 @@ body {
     background-image: linear-gradient(#34547A, #34547A);
     opacity: 0.8;
 }
-
-.gradient:hover::before{
+.main5-block1:hover::before{
     content: '';
     display: block;
     width: 100px;
@@ -379,65 +374,206 @@ body {
 .main5-block2 {
     max-width: 100%;
     max-height: 100%;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.main5-block2:hover::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: transparent;
+    background-image: linear-gradient(#34547A, #34547A);
+    opacity: 0.8;
+}
+.main5-block2:hover::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: url('images/eye.png') no-repeat;
+   z-index: 100;
+}
+
 .main5-block3 {
     max-width: 100%;
     max-height: 100%;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.main5-block3:hover::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: transparent;
+    background-image: linear-gradient(#34547A, #34547A);
+    opacity: 0.8;
+}
+.main5-block3:hover::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: url('images/eye.png') no-repeat;
+   z-index: 100;
+}
+
 .main5-block4 {
     max-width: 100%;
     max-height: 100%;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.main5-block4:hover::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: transparent;
+    background-image: linear-gradient(#34547A, #34547A);
+    opacity: 0.8;
+}
+.main5-block4:hover::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: url('images/eye.png') no-repeat;
+   z-index: 100;
+}
+
 .main5-block5 {
     max-width: 100%;
     max-height: 100%;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.main5-block5:hover::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: transparent;
+    background-image: linear-gradient(#34547A, #34547A);
+    opacity: 0.8;
+}
+.main5-block5:hover::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: url('images/eye.png') no-repeat;
+   z-index: 100;
+}
+
 .main5-block6 {
     max-width: 100%;
     max-height: 100%;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.main5-block6:hover::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: transparent;
+    background-image: linear-gradient(#34547A, #34547A);
+    opacity: 0.8;
+}
+.main5-block6:hover::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: url('images/eye.png') no-repeat;
+   z-index: 100;
+}
+
 .main5-block7 {
     max-width: 100%;
     max-height: 100%;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.main5-block7:hover::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: transparent;
+    background-image: linear-gradient(#34547A, #34547A);
+    opacity: 0.8;
+}
+.main5-block7:hover::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: url('images/eye.png') no-repeat;
+   z-index: 100;
+}
+
 .main5-block8 {
     max-width: 100%;
     max-height: 100%;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/*.main5-block1:hover {
-    /*box-shadow: -10 -10 50px 10px rgba(255, 255, 0, 0.9);*/
-    /*mix-blend-mode: multiply;
-    background-image: url(images/eye.png);*/
-   
+.main5-block8:hover::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: transparent;
+    background-image: linear-gradient(#34547A, #34547A);
+    opacity: 0.8;
+}
+.main5-block8:hover::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: url('images/eye.png') no-repeat;
+   z-index: 100;
+}
 
-.main5-block2:hover {
-    /*box-shadow: -10 -10 50px 10px rgba(255, 255, 0, 0.9);*/
-    mix-blend-mode: multiply;
-}
-.main5-block3:hover {
-    /*box-shadow: -10 -10 50px 10px rgba(255, 255, 0, 0.9);*/
-    mix-blend-mode: multiply;
-}
-.main5-block4:hover {
-    /*box-shadow: -10 -10 50px 10px rgba(255, 255, 0, 0.9);*/
-    mix-blend-mode: multiply;
-}
-.main5-block5:hover {
-    /*box-shadow: -10 -10 50px 10px rgba(255, 255, 0, 0.9);*/
-    mix-blend-mode: multiply;
-}
-.main5-block6:hover {
-    /*box-shadow: -10 -10 50px 10px rgba(255, 255, 0, 0.9);*/
-    mix-blend-mode: multiply;
-}
-.main5-block7:hover {
-    /*box-shadow: -10 -10 50px 10px rgba(255, 255, 0, 0.9);*/
-    mix-blend-mode: multiply;
-}
-.main5-block8:hover {
-    /*box-shadow: -10 -10 50px 10px rgba(255, 255, 0, 0.9);*/
-    mix-blend-mode: multiply;
-}
 /* .main6*/
 .main6-img-wraper {
     display: flex;
