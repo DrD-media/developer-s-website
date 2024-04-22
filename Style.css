@@ -179,16 +179,17 @@ body {
 /* .main2*/
 .main2-img-wraper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    /*width: 1920px;*/
+    width: 100%;  /*1920px*/
     padding-top: 100px;
-    padding-left: 405px;
-    padding-right: 405px;
+    padding-left: 49px;  /* 405px*/
+    padding-right: 49px; /* 405px*/
     padding-bottom: 100px;
     background-color: #34547A;
     gap: 49px;
 }
+
 /* .main3*/
 .main3-container {
     display: flex;
@@ -326,7 +327,7 @@ body {
     width: 100px;
     height: 100px;
     position: absolute;
-    background: url('images/eye.png') no-repeat;
+    background: url('images/playV.png') no-repeat;
 
 }
 /* main-kostile-1 */
@@ -339,6 +340,7 @@ body {
 .main5-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
    /* min-height: 960px;*/
 }
 
