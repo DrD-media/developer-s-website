@@ -155,13 +155,19 @@ body {
 }
 /* .main*/
 .me {
-   /* width: 1920px;*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
     padding-top: 112px;
-    padding-left: 715px;
-    padding-right: 715px;
+    padding-left: 40px; /*715px*/
+    padding-right: 40px; /*715px*/
     padding-bottom: 101px;
-   /* background-color: #a4bef3;*/
 }
+
+.me-block{
+    max-width: 540px;
+}
+
 .me1 {
     text-align: center;
     font-size: 32px;
@@ -169,6 +175,7 @@ body {
     font-weight: 500;
     margin-bottom: 49px;
 }
+
 .me2 {
     text-align: center;
     font-size: 16px;
@@ -328,12 +335,11 @@ body {
     height: 100px;
     position: absolute;
     background: url('images/playV.png') no-repeat;
-
 }
 /* main-kostile-1 */
 .main-kostile-1{
     background-color: #FFFFFF;
-   /* width: 1920px;*/
+    width: 100%;
     min-height: 28px;
 }
 /* .main5*/
