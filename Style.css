@@ -579,15 +579,17 @@ body {
 /* .main6*/
 .main6-img-wraper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    /*width: 100%;*/
+    width: 100%;
     padding-top: 72px;
-    padding-left: 405px;
-    padding-right: 405px;
+    padding-left: 30px; /*405px*/
+    padding-right: 30px; /*405px*/
     padding-bottom: 100px;
     background-color: #FFFFFF;
+    gap: 30px;
 }
+
 /* .main7*/
 .main7-container {
     display: flex;
