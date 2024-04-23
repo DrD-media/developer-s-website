@@ -288,21 +288,21 @@ body {
 }
 /* .main4*/
 .main4-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  /*  width: 1920px;*/
-    background-color: #EEEFF1;
-}
-.main4-block1 {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 30px;  
+    padding-right: 30px; 
+    padding-bottom: 100px;
+    background-color: #EEEFF1;
+}
+
+.main4-block1 {
     padding-bottom: 57px;
-    padding-left: 690px;
-    padding-right: 690px;
+    max-width: 540px;
 }
 .main4-title{
     text-align: center;
@@ -318,16 +318,16 @@ body {
     font-weight: 400;
     color: #727272;
 }
+
 .VideoC{
-    min-width: none;
-    background: url('images/stabVideo.png') no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1110px;
-    height: 600px;
 }
-
 .VideoC::after{
     content: '';
     display: block;
@@ -336,6 +336,7 @@ body {
     position: absolute;
     background: url('images/playV.png') no-repeat;
 }
+
 /* main-kostile-1 */
 .main-kostile-1{
     background-color: #FFFFFF;
