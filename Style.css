@@ -22,7 +22,7 @@ body {
     font-family: "Revalia", sans-serif;
     font-family: "Roboto", sans-serif;
     width: 100%;
-    max-width: 1920px;
+    max-width: 100%;
 }
 /* .header*/
 .header-container {
