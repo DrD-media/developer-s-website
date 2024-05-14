@@ -25,6 +25,8 @@ ol, ul {
 
     --color-bg-2: #EEEFF1;
 
+    --color-button-tema: #000000;
+
     --color-message-form: #FFFFFF;;
 }
 .darkstyle {
@@ -34,6 +36,8 @@ ol, ul {
 
     --color-bg-2: #262729;  /*#333*/ /*#262729*/ /*#262729*/
 
+    --color-button-tema: #FFFFFF;
+    
     --color-message-form: #3b3b3b;
 }
 /*
@@ -151,15 +155,17 @@ body {
     padding-bottom: 0px;
 }
 .Tema-img {
-    border-radius: 27%;
-    max-width: 30px;
-    max-height: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 27%; 
+    /*max-width: 30px;
+    max-height: 30px;*/
     background: var(--color-bg-2);
 }
 .Tema-img:hover{
     box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.192);
-    max-width: 35px;
-    max-height: 35px;
+    width: 45px;
+    height: 45px;
     margin-left: -5px;
     margin-bottom: -5px;
 }
