@@ -17,13 +17,39 @@ ol, ul {
     max-width: 100%;
     height: auto;
   }*/
+
+:root {
+    --color-bg-1: #ffffff;
+    --color-body-1: #000000;
+    --color-body-logo: #34547A;
+
+    --color-bg-2: #EEEFF1;
+
+    --color-message-form: #FFFFFF;;
+}
+.darkstyle {
+    --color-bg-1: #121212;
+    --color-body-1: #ffffff;
+    --color-body-logo: #99b9e8;
+
+    --color-bg-2: #262729;  /*#333*/ /*#262729*/ /*#262729*/
+
+    --color-message-form: #3b3b3b;
+}
+/*
+.switch-style {
+    cursor: pointer;
+}*/
+
 body {
+    background: var(--color-bg-1);
+    color: var(--color-body-1);
     position: absolute;
     font-family: "Revalia", sans-serif;
     font-family: "Roboto", sans-serif;
     width: 100%;
     max-width: 1920px;
-  
+    /*transition: background-color 0.3s ease;*/
 }
 /* .header*/
 .header-container {
@@ -35,7 +61,7 @@ body {
     padding-left: 30px; /*402px*/
     padding-right: 30px; /*402px*/
     padding-bottom: 178px;
-    background-color: #EEEFF1;
+    background: var(--color-bg-2);
 }
 .header-container-1 {
     display: flex;
@@ -52,7 +78,7 @@ body {
     font-size: 48px;
     line-height: auto;
     font-weight: 400;
-    color: #34547A;
+    color: var(--color-body-logo);
 }
 .header-navigation {
     min-height: 16px;
@@ -61,7 +87,7 @@ body {
     text-decoration: none;
 }
 .header-navigation1 {
-    color: #000000;
+    color: var(--color-body-1);
     text-decoration: none;
     padding-right: 42px;
     font-size: 16px;
@@ -73,7 +99,7 @@ body {
     color: #34547A;
 }
 .header-navigation2 {
-    color: #000000;
+    color: var(--color-body-1);
     text-decoration: none;
     padding-right: 42px;
     font-size: 16px;
@@ -84,7 +110,7 @@ body {
     color: #34547A;
 }
 .header-navigation3 {
-    color: #000000;
+    color: var(--color-body-1);
     text-decoration: none;
     padding-right: 42px;
     font-size: 16px;
@@ -95,7 +121,7 @@ body {
     color: #34547A;
 }
 .header-navigation4 {
-    color: #000000;
+    color: var(--color-body-1);
     text-decoration: none;
     padding-right: 42px;
     font-size: 16px;
@@ -106,7 +132,7 @@ body {
     color: #34547A;
 }
 .header-navigation5 {
-    color: #000000;
+    color: var(--color-body-1);
     text-decoration: none;
     font-size: 16px;
     line-height: 164.1%;
@@ -118,17 +144,17 @@ body {
 
 .Tema {
     border: none;
-    background-color: #EEEFF1;
-   padding-left: 0px;
-   padding-right: 0px;
-   padding-top: 0px;
-   padding-bottom: 0px;
+    background: var(--color-bg-2);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .Tema-img {
     border-radius: 27%;
     max-width: 30px;
     max-height: 30px;
-    background-color: #EEEFF1;
+    background: var(--color-bg-2);
 }
 .Tema-img:hover{
     box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.192);
@@ -470,7 +496,7 @@ body {
     padding-left: 30px;  
     padding-right: 30px; 
     padding-bottom: 100px;
-    background-color: #EEEFF1;
+    background: var(--color-bg-2);
 }
 
 .main4-block1 {
@@ -803,7 +829,7 @@ body {
     padding-right: 30px; /*690px*/
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #EEEFF1;
+    background: var(--color-bg-2);
 }
 .main7-block1 {
     padding-bottom: 65px;
@@ -839,6 +865,7 @@ body {
     height: 50px;
     border: 0;
     text-indent: 20px; /* вопрос???*/
+    background: var(--color-message-form);
 }
 /*.form-name-container{
     padding-right: 30px; 
@@ -848,6 +875,7 @@ body {
     height: 50px;
     border: 0;
     text-indent: 20px; /* вопрос???*/ 
+    background: var(--color-message-form);
 }
 .form-messag {
     max-width: 540px;
@@ -859,6 +887,7 @@ body {
     text-indent: 20px; /* вопрос???*/
     padding-left: 10px;
     padding-right: 10px;
+    background: var(--color-message-form);
 }
 textarea { 
     resize: none;
@@ -963,51 +992,3 @@ textarea {
         text-align: center;
     }
 }
-
-
-/* тёмная тема */
-body {
-    transition: background-color 0.3s ease;
-}
-
-body.light-theme {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-body.dark-theme {
-    background-color: #121212;
-    color: #ffffff;
-}
-
-
-
-/*body.light-theme header-container {
-    background-color: #EEEFF1;
-}
-
-body.dark-theme header-container {
-    background-color: #333;
-}*/
-
-/*.header-container.light-theme {
-    background-color: #EEEFF1;
-
-}
-
-.header-container.dark-theme {
-    background-color: #333;
-
-}*/
-
-/*.header-container {
-    background-color: #333;
-}*/
-
-
-
-/*.boxed-text {
-    border: 2px solid currentColor;
-    padding: 15px;
-    margin-top: 20px;
-}*/
