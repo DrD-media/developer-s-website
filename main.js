@@ -87,3 +87,29 @@ styleToggle2.addEventListener('click', () => {
 if(styleMod === 'A'){
     enableAStyle();
 }
+
+/* Кнопка включения отключения изображений*/ 
+let styleMod2 = localStorage.getItem('styleMod2');
+const styleToggle3 = document.querySelector('.Tema3'); 
+
+const enableImgStyle = () => {
+    document.body.classList.add('Imgstyle');
+    localStorage.setItem('styleMod2', 'img');
+}
+const disableImgStyle = () => {
+    document.body.classList.remove('Imgstyle');
+    localStorage.setItem('styleMod2', null);
+}
+
+styleToggle3.addEventListener('click', () => {
+    styleMod2 = localStorage.getItem('styleMod2');
+    if(styleMod2 !== 'img'){
+        enableImgStyle();
+    } else {
+        disableImgStyle();
+    }
+});
+
+if(styleMod2 === 'img'){
+    enableImgStyle();
+}
