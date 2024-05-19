@@ -34,7 +34,6 @@ ol, ul {
     --size-text-Naviki: 16px;
     --size-messag-link: 16px;
     --size-messag-anketa: 13.5px;
-    transition: all 0.3s;
 
     --block-img: block;
     --gap-1-img: 65.5px;
@@ -42,6 +41,7 @@ ol, ul {
 
     --gap-3-1-img: 150px;
     --gap-3-2-img: 75px;
+    transition: all 0.3s;
 
     /*gap: var(--gap-img);*/
     /*display: var(--block-img);*/
@@ -76,6 +76,7 @@ ol, ul {
 
     --gap-3-1-img: 0px;
     --gap-3-2-img: 0px;
+    transition: all 0.3s;
 }
 /*
 .switch-style {
