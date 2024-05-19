@@ -1,3 +1,4 @@
+/* Кнопка смены темы*/ 
 let styleMode = localStorage.getItem('styleMode');
 const styleToggle = document.querySelector('.Tema'); /*.themeToggle*/ 
 
@@ -23,8 +24,7 @@ if(styleMode === 'dark'){
     enableDarkStyle();
 }
 
-
-
+/* анимации при скролле*/ 
 const animItems = document.querySelectorAll('._anim-items');
 
 if (animItems.length > 0) {
@@ -60,4 +60,30 @@ if (animItems.length > 0) {
     setTimeout(() => {
         animOnScroll();
     }, 300);
+}
+
+/* Кнопка регулировки Аа*/
+let styleMod = localStorage.getItem('styleMod');
+const styleToggle2 = document.querySelector('.Tema2'); /*.themeToggle*/ 
+
+const enableAStyle = () => {
+    document.body.classList.add('Astyle');
+    localStorage.setItem('styleMod', 'A');
+}
+const disableAStyle = () => {
+    document.body.classList.remove('Astyle');
+    localStorage.setItem('styleMod', null);
+}
+
+styleToggle2.addEventListener('click', () => {
+    styleMod = localStorage.getItem('styleMod');
+    if(styleMod !== 'A'){
+        enableAStyle();
+    } else {
+        disableAStyle();
+    }
+});
+
+if(styleMod === 'A'){
+    enableAStyle();
 }
