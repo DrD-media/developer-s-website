@@ -35,6 +35,16 @@ ol, ul {
     --size-messag-link: 16px;
     --size-messag-anketa: 13.5px;
     transition: all 0.3s;
+
+    --block-img: block;
+    --gap-1-img: 65.5px;
+    --gap-2-img: 131px;
+
+    --gap-3-1-img: 150px;
+    --gap-3-2-img: 75px;
+
+    /*gap: var(--gap-img);*/
+    /*display: var(--block-img);*/
     /*font-size: var(--size-text-title);*/
 }
 .darkstyle {
@@ -57,6 +67,15 @@ ol, ul {
     --size-messag-link: 18px;
     --size-messag-anketa: 15.5px;
     transition: all 0.3s;
+}
+
+.Imgstyle{
+    --block-img: none;
+    --gap-1-img: 0px;
+    --gap-2-img: 0px;
+
+    --gap-3-1-img: 0px;
+    --gap-3-2-img: 0px;
 }
 /*
 .switch-style {
@@ -196,7 +215,7 @@ body {
 .Tema2 {
     border: none;
     padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 2px;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -213,6 +232,27 @@ body {
     margin-left: -5px;
 }
 /**/
+/**/
+.Tema3 {
+    border: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.Tema-img3 {
+    height: 40px;
+    width: 40px;
+    border-radius: 27%; 
+    border: none;
+}
+.Tema-img3:hover{
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.192);
+    width: 45px;
+    height: 45px;
+    margin-left: -5px;
+}
+/**/
 .header-container-2 {
     width: 100%;
     display: flex;
@@ -220,10 +260,12 @@ body {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 131px
+    /*gap: 131px;*/
+    gap: var(--gap-2-img);
 }
 
 .header-img {
+    display: var(--block-img);
     max-width: 100%;
     max-width: 100%;
 
@@ -328,7 +370,7 @@ body {
         text-align: center;
     }
     .header-container-2 {
-        gap: 65.5px
+        gap: var(--gap-1-img);
     }
     .header-container-1 {
         margin-bottom: 100px;
@@ -499,7 +541,8 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 101px;
-    gap: 150px;
+    /*gap: 150px;*/
+    gap: var(--gap-3-1-img);
 }
 
 .main3-TEXT {
@@ -640,6 +683,7 @@ body {
     max-width: 100%;
     transform: scale(0);
     transition: all 0.8s ease 0s;
+    display: var(--block-img);
 }
 .main3-block2._active .main3-foto {
     transform: scale(1);
@@ -649,7 +693,8 @@ body {
     .main3-container {
         padding-top: 51px;
         padding-bottom: 50.5px;
-        gap: 75px;
+        /*gap: 75px;*/
+        gap: var(--gap-3-2-img);
     }
 }
 @media (max-width: 520px) {
@@ -774,6 +819,7 @@ body {
 .main-kostile-1{
     width: 100%;
     min-height: 28px;
+    display: var(--block-img);
 }
 
 /* .main5*/
@@ -781,6 +827,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    display: var(--block-img);
    /* min-height: 960px;*/
 
    transform: translate(-10%,0px);
