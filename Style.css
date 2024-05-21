@@ -36,6 +36,7 @@ ol, ul {
     --size-messag-anketa: 13.5px;
 
     --block-img: block;
+    --block-img2: flex;
     --gap-1-img: 65.5px;
     --gap-2-img: 131px;
 
@@ -71,6 +72,7 @@ ol, ul {
 
 .Imgstyle{
     --block-img: none;
+    --block-img2: none;
     --gap-1-img: 0px;
     --gap-2-img: 0px;
 
@@ -297,7 +299,7 @@ body {
     line-height: 164.1%;
     font-weight: 500;
     margin-bottom: 60px;
-    transform: translate(-30%,0px);
+    transform: translate(30%,0px);
     opacity: 0;
     transition: all 0.8s ease 0s;
 }
@@ -820,7 +822,7 @@ body {
 .main-kostile-1{
     width: 100%;
     min-height: 28px;
-    display: var(--block-img);
+  /*  display: var(--block-img);*/
 }
 
 /* .main5*/
@@ -828,7 +830,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    display: var(--block-img);
+    /*display: var(--block-img);*/
+    display: var(--block-img2);
    /* min-height: 960px;*/
 
    transform: translate(-10%,0px);
