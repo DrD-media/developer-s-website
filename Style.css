@@ -821,6 +821,7 @@ body {
 
 .main-kostile-2{
     width: 100%;
+    max-width: 1920px;
     min-height: 28px;
 }
 .Practika{
