@@ -1,6 +1,6 @@
 /* Кнопка смены темы*/ 
 let styleMode = localStorage.getItem('styleMode');
-const styleToggle = document.querySelector('.Tema'); /*.themeToggle*/ 
+const styleToggle = document.querySelector('.Tema');
 
 const enableDarkStyle = () => {
     document.body.classList.add('darkstyle');
@@ -64,7 +64,7 @@ if (animItems.length > 0) {
 
 /* Кнопка регулировки Аа*/
 let styleMod = localStorage.getItem('styleMod');
-const styleToggle2 = document.querySelector('.Tema2'); /*.themeToggle*/ 
+const styleToggle2 = document.querySelector('.Tema2');
 
 const enableAStyle = () => {
     document.body.classList.add('Astyle');
